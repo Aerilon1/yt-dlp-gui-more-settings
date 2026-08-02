@@ -1,0 +1,16 @@
+[general]
+current_preset = 0
+path = ""
+global_args = ""
+retry_count = 2
+cookies_file = ""
+use_saved_preset = false
+precise_section_cuts = false
+max_concurrent_downloads = 3
+
+[presets]
+best = "-f bestvideo+bestaudio/best"
+mkv = "-f bestvideo+bestaudio/best --merge-output-format mkv"
+mp4 = "-f bv*[vcodec^=avc]+ba[ext=m4a]/b"
+mp3 = "--extract-audio --audio-format mp3 --audio-quality 0"
+wav = "--extract-audio --audio-format wav --audio-quality 0"

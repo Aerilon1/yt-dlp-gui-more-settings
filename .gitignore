@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+*.egg
+
+# Virtual environments
+.venv/
+.venv-build/
+venv/
+env/
+
+# Pytest / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# PyInstaller (keep build/yt-dlp-gui.spec)
+build/pyinstaller/
+*.spec.bak
+yt-dlp-gui-win64.zip
+
+# Local / runtime artifacts (must not be committed)
+*.log
+*.sqlite3
+cookies.txt
+config.toml
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
